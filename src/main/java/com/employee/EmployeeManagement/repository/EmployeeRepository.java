@@ -1,0 +1,9 @@
+package com.employee.EmployeeManagement.repository;
+
+import com.employee.EmployeeManagement.model.Employee;
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface EmployeeRepository extends MongoRepository<Employee,String> {
+}
